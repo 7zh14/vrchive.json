@@ -36,7 +36,7 @@ const navigationPanel = ` <div class="" id="nav">
                         d="M11.25 4.5l7.5 7.5-7.5 7.5m-6-15l7.5 7.5-7.5 7.5" />
                 </svg>
             </span>
-            <span>Avatar</span>
+            <span>Avatars</span>
         </a>
         <a class="p-4 border-b-2 border-white w-full flex item-center gap-2 hover:bg-amber-500 hover:text-black hover:border-amber-500 font-medium transtition-all duration-500 lg:justify-center"
             href="../clothes/">
