@@ -130,7 +130,7 @@
                 </div>
                 <button id="NomNomBtn"
                     class="w-full py-2 px-8 border-2 border-white text-white text-xl font-medium hover:bg-amber-500 hover:text-black transtition-all duration-500">
-                    Click Me!
+                    VRChive Clone [Click Me!]
                 </button>
             </div>
         </div>
@@ -219,6 +219,18 @@
         }).catch(err => {
             data.visits.totalVisits = ["0", "0", "0", "0", "0",]
         })
+
+        function animateNumbersFadeIn() {
+            const numbers = document.querySelectorAll(".numbers")
+            numbers.forEach((item, index) => {
+                setTimeout(() => {
+                    item.classList.remove("scale-0")
+                    item.classList.remove("-translate-x-full")
+                    item.classList.remove("-translate-y-full")
+                    item.classList.remove("-rotate-180")
+                }, index * 100)
+            })
+        }
 
     </script>
 
